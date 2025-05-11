@@ -1,8 +1,8 @@
 .container {
   display: flex;
-  height: 245vh;
-  
+  height: 100vh;
   padding: 20px;
+  overflow: auto;
 }
 
 .left-info, .right-info {
@@ -16,6 +16,7 @@
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
    background-color: #ffe0b2;
+   overflow: auto;
 }
 .left-info input {
   display: flex;
@@ -42,9 +43,9 @@
 }
 .right-info{
   color: white;
-  
   border-radius: 15px;
   background-color: #0a0144;
+  overflow: auto;
 }
 .right-info h1{
   color:white;
